@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 20px;
+}
+#form{
+  width:92%;
+  min-height: 60vh;
+  float: left;
+  margin: 5vh 4%;
+  font-weight: 600;
+  padding-bottom: 5vh;
+ 
+}
+#heading{
+  margin-left: 4%;
+  padding: 40px 0;
+  color: black;
+  margin-bottom: 5vh;
+}
+#heading >span{
+  border-bottom: solid 4px orangered;
+  padding-bottom: 40px;
+}
+.class1, .class2, .class3{
+  float: left;
+  min-height: 5vh;
+  margin-bottom: 1vh;
+  padding:2vh 0px;
+}
+.class1, .class2{
+  width: 45%;
+}
+.class3{
+  width: 95%;
+ 
+  
+}
+.class1 input, .class2 input, .class3 input{
+  width:100%;
+  padding :2vh 10px;
+  outline: none;
+}
+.class2{
+  margin-left: 4%;
+}
+.class4 textarea{
+  width: 95%;
+  padding: 2vh 10px;
+  margin-bottom: 2vh;
+}
+#iAgree{
+  margin-right: 10px;
+  margin-bottom: 3vh;
+  cursor: pointer;
+ 
+}
+#iAgree:after{
+  /*content: '';*/
+  width: 16px;
+  height: 16px;
+  background-color: orangered;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+button{
+    background-color: orange;
+    width:8%;
+    min-height: 6vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+   
+}
+
+/* table style*/
+
+.table{
+  width: 100%;
+  margin-top: 30px;
+}
+.table h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+td,th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

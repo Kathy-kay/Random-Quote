@@ -1,0 +1,106 @@
+/*Import google fonts poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+  }
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #1C3879 ;
+}
+.wrapper{
+  width: 605px;
+  border-radius: 15px;
+  background: #fff;
+  padding: 20px 20px 35px;
+}
+.wrapper header{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.wrapper .content{
+  margin: 34px 0 ;
+}
+.quote-area{
+  display: flex;
+  justify-content: center;
+}
+.quote-area i{
+  font-size: 15px;
+}
+.quote-area i:first-child{
+  margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
+.quote-area .quote{
+  font-size: 23px;
+  text-align: center;
+  word-break: break-all;
+}
+.content .author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+}
+.author span:first-child{
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+.wrapper .buttons{
+  border-top: 1px solid #ccc ;
+}
+.buttons .features{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.features ul{
+  display: flex;
+}
+.features ul li{
+  list-style: none;
+  margin: 0 5px;
+  width: 47px;
+  height: 47px;
+  border: 2px solid #1C3879;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #1C3879;
+  transition:all  0.3s ease;
+}
+.features ul li:hover{
+  background:#1C3879;
+  color:#fff
+
+}
+.features button{
+  border: none;
+  outline: none;
+  background: #1C3879;
+  padding: 13px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  font-style: 16px;
+}
+button .loading{
+  opacity: 0.7;
+  pointer-events: none;
+}
